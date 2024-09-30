@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Richard Zhou</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class = "header"> 
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Work Experience</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- home section design -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="drop-down-text">
+          <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span>
+          <span>&nbsp;</span>
+          <span>a</span><span>n</span><span>d</span>
+          <span>&nbsp;</span>
+          <span>w</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+          <span>&nbsp;</span>
+          <span>t</span><span>o</span>
+          <span>&nbsp;</span>
+          <span>m</span><span>y</span>
+          <span>&nbsp;</span>
+          <span>p</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+        </div>
+        <h1>Richard Zhou</h1>
+        <h3>I'm a <span class = "multiple-text"></span></h3>
+        <p>In here you will have the chance to get to know the highlights of my career, accedemic and personal achievements, and extracurriculars </p>
+        <div class="social-media">
+          <a href="https://www.instagram.com/richyz111/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+          <a href="https://github.com/DuckyCodes" target="_blank"><i class='bx bxl-github' ></i></a>
+          <a href="https://www.linkedin.com/in/richard-zhou-22ab60249/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href="assets/Richard Zhou Resume.pdf" download="Richard Zhou Resume" target="_blank" class="btn">Download CV</a>
+
+      </div>
+
+
+      <div class="home-img">
+        <img src="images/home.png" alt="">
+      </div>
+        
+
+
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/aboutme-removebg-preview.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Engineer, FullStack Developer, and a Engineer By Heart</h3>
+        <p>I am currently a 3rd-year Computer Science student at the University of British Columbia. Looking back, my journey here wasn’t always smooth.
+           In elementary school, I almost got in trouble for selling products to classmates—a young entrepreneurial spark that didn’t quite align with school rules.<br><br>      
+
+        <span id="moreText1" style = "display: none;" class="hiddentext">
+          High school came with its own challenges. I struggled with courses like Chemistry 11, Math 12, and Physics 11 and 12, but rather than being discouraged by those failures, I used them as motivation. 
+          I discovered my real strengths in programming, where I could apply my problem-solving skills in ways that felt more natural to me.
+          <br><br>Now, I’m proficient in programming languages like Python, TypeScript, C++, and many more.
+           What started as a curiosity has become a passion for building software and tackling complex problems through technology.
+          
+          While my path hasn’t been traditional, it’s shaped who I am today, and I’m excited to keep learning and growing in the field. 
+          </span>
+        </p>
+        <a href="#about" onclick="toggleReadMore('moreText1', this)" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Projects section design -->
+    <section class="projects" id = "projects">
+      <h2 class="heading">My <span>Work Experience</span></h2>
+      <div class="projects-container">
+
+        
+        <div class="projects-box">
+          <img src="images/rpg-Logo.png" alt="RPG Logo">
+          <h3>Support Engineer | <br> Royal Pacific Realty</h3>
+          <h4>January 2023 - October 2023</h4>
+          <p> 
+            <span id="moreText2" style="display: none;" class="hiddentext">
+              As a Support Engineer at Royal Pacific Realty, I was responsible for improving and maintaining the company’s website.
+              I worked with languages like <span2>JavaScript</span2>, <span2>CSS</span2>, and <span2>HTML</span2> to make the website easier to use and more functional.
+              <br>One of my key achievements was creating <span2>Python scripts</span2> to automate data tasks. This helped save time and made the team’s work more efficient by reducing the need for manual data entry.
+              I also provided technical support by troubleshooting and fixing computer and network issues, which helped the company run more smoothly.
+              Overall, my efforts contributed to a better working environment and improved technology for the team.
+            </span>
+        </p>
+            <a href="#projects" onclick="toggleReadMore('moreText2', this)" class="btn">Read More</a>
+        </div>
+
+        
+        <div class="projects-box">
+          <img src="images/Matchya-Logo.png" alt="Matchya Logo">
+          <h3>Software Engineer Intern | Matchya</h3>
+          <h4>May 2024 - August 2024</h4>
+          <p>
+            <span id="moreText3" style="display: none;" class="hiddentext">
+              My enthusiasm for technology and innovation led me to an exciting internship at Matchya,
+               where I aimed to make a meaningful impact on transformative projects.
+                Over the course of four months, I delved into cutting-edge technologies such as
+              <span2>TypeScript</span2>, <span2>React</span2>, <span2>Python</span2>, <span2>AWS Lambda</span2>, <span2>Docker</span2>, and the <span2>OpenAI API</span2>.<br>
+
+              A major highlight of my internship was my role in developing an <span2>AI-powered</span2> interactive interview platform. 
+              This project focused on context-based assessments, allowing employers to evaluate candidates through dynamic, 
+              real-world scenarios instead of relying on traditional resumes or generic tests.
+               I also integrated video calling features to facilitate live interview interactions,
+                enhancing the user experience and making the hiring process more engaging.
+            </span>
+        </p>
+            <a href="#projects" onclick="toggleReadMore('moreText3', this)" class="btn">Read More</a>
+        </div>
+        
+      </div>
+    </section>
+
+
+
+    <!-- portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/BlackJack.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Black-Jack</h4>
+            <p>A Black-Jack simulator mimics the real-world card game of Black-Jack</p>
+            <a href="https://github.com/DuckyCodes/Black-Jack" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/Dungeon.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Original Dungeon Game</h4>
+            <p>A game with dragons, monsters, and healers where players battle through dungeons.</p>
+            <a href="https://github.com/DuckyCodes/dungeoan-zip-game" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/ColourGame.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Colour Game</h4>
+            <p>In this game, players are presented with a word and a color. If they match, players press "True"; if they don't, they press "False."</p>
+            <a href="https://github.com/DuckyCodes/colour-game" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/UniClickGame.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Unicorn Clicker Game</h4>
+            <p>A game where players click on Unicorns that fly across the screen.</p>
+            <a href="https://github.com/DuckyCodes/UnicornClickerGame" target="_blank"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d9e1f059-36c3-496a-8668-0a5fd5f5c46b">
+        <div class="input-box">
+          <input type="text" id = "name" name = "name" placeholder="Full Name" required>
+          <input type="email" id = "email" name = "email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+          <input type="number" name = "number" placeholder="Mobile Number">
+          <input type="text" id = "subject" name="subject" placeholder="Email Subject" required>
+        </div>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+      </form>
+
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
